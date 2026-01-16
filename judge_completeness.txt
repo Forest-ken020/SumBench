@@ -1,0 +1,21 @@
+You will act as a quality evaluator. You will receive a [Model Generated Summary] and a set of [Key Facts] derived from the same transcript. Your task is to assess whether each key fact in the [Key Facts] can be logically inferred from the [Model Generated Summary].
+
+Process:
+1. Compare each key fact against the [Model Generated Summary].
+2. Determine if the key fact is inferred from the summary. For each key fact, respond with either "Yes" or "No."
+
+Output Format:
+Provide results in JSON format:
+{"score": "xxx", "reason": "Concise explanation for the judgment"}  
+
+Score: A line break-separated list of "YES" or "NO" answers, corresponding to the evaluation of each key fact in [Key Facts].
+Reason: A brief explanation for the score given for each key fact.
+
+Inputs Provided:
+[Key Facts]: 
+{Key Facts}
+
+[Model Generated Summary]: 
+{Model Generated Summary}
+
+[Your Evaluation]:

@@ -1,0 +1,5 @@
+Article: {article}
+Requirement: {requirement}
+Summary:
+
+Summarize the following article based on the specific requirement. Please use chinese to response.
